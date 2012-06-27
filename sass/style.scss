@@ -1,0 +1,61 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+body {
+	text-align: center;
+}
+h3 {
+	font-size: 1.5em;
+}
+.image, .center-pane {
+	text-align: center;
+	display: inline-block;
+}
+canvas {
+	max-width: 300px;
+	max-height: 300px;
+	padding: 2px;
+	border: 1px inset #ddd;
+	margin: 16px;
+}
+
+.center-pane {
+	vertical-align: top;
+}
+.bracket {
+	display: inline-block;
+	font-size: 10.5em;
+	z-index: 0;
+}
+.numbers {
+	margin-left: -20px;
+	display: inline-block;
+	z-index: 1000;
+}
+.right.bracket {
+	margin-left: -20px;
+	z-index: -1;
+}
+.matrix-item {
+	display: inline-block;
+	padding: 2px;
+	width: 1.5em;
+	height: 1.5em;
+	/*border: 1px inset #eee;*/
+	line-height: 1.5em;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: sans-serif;
+	border: 0;
+	background-color: white;
+	text-align: center;
+	outline: 0;
+}
+
+.presets {
+	margin-top: 20px;
+}
